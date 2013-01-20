@@ -483,7 +483,7 @@ $plugin_url = get_template_directory_uri().'/includes/theme_shortcodes/tinymce/'
 								var a=this;d.onRenderMenu.add(function(c,b){
                 	c=b.addMenu({title:"Basic"});
                   	a.addWithDialog(c,"Recent Posts","recentposts");
-                    a.addWithDialog(c,"Recent Testimonials","recenttesti");
+                    a.addWithDialog(c,"Recent Отзывы","recenttesti");
                     a.addWithDialog(c,"Popular Posts","popularposts");
 										a.addWithDialog(c,"Recent Comments","recentcomments");
 										a.addWithDialog(c,"Tags","tags");

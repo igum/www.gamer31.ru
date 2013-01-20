@@ -258,7 +258,7 @@ if ( ! function_exists( 'optionsframework_mlu_js_popup' ) ) {
 		// Change the text of the "Insert into Post" buttons to read "Use this File".
 		$( '.savesend input.button[value*="Insert into Post"], .media-item #go_button' ).attr( 'value', 'Use this File' );
 		
-		// Hide the "Insert Gallery" settings box on the "Gallery" tab.
+		// Hide the "Insert Gallery" settings box on the 'Галерея' tab.
 		$( 'div#gallery-settings' ).hide();
 		
 		// Preserve the "is_optionsframework" parameter on the "delete" confirmation button.
@@ -279,13 +279,13 @@ if ( ! function_exists( 'optionsframework_mlu_js_popup' ) ) {
 }
 
 /**
- * Triggered inside the Media Library popup to modify the title of the "Gallery" tab.
+ * Triggered inside the Media Library popup to modify the title of the 'Галерея' tab.
  */
 
 if ( ! function_exists( 'optionsframework_mlu_modify_tabs' ) ) {
 
 	function optionsframework_mlu_modify_tabs ( $tabs ) {
-		$tabs['gallery'] = str_replace( __( 'Gallery', 'optionsframework' ), __( 'Previously Uploaded', 'optionsframework' ), $tabs['gallery'] );
+		$tabs['gallery'] = str_replace( __( 'Галерея', 'optionsframework' ), __( 'Previously Uploaded', 'optionsframework' ), $tabs['gallery'] );
 		return $tabs;
 	}
 }

@@ -257,7 +257,7 @@ add_shortcode('popular_posts', 'shortcode_popular_posts');
 
 
 
-//Recent Testimonials
+//Recent Отзывы
 
 function shortcode_recenttesti($atts, $content = null) {
 

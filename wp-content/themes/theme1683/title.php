@@ -4,7 +4,7 @@
 		<?php if($blog_text){?>
       <h1><?php echo of_get_option('blog_text'); ?></h1>
     <?php } else { ?>
-      <h1><?php _e('Blog','theme1683');?></h1>
+      <h1><?php _e('Блог','theme1683');?></h1>
     <?php } ?>
 		
 	<?php } else { ?>

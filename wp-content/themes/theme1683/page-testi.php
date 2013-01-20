@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Testimonials
+ * Template Name: Отзывы
  */
 
 get_header(); ?>
@@ -52,10 +52,10 @@ get_header(); ?>
     <?php if ( $wp_query->max_num_pages > 1 ) : ?>
         <nav class="oldernewer">
           <div class="older">
-            <?php next_posts_link( __('&laquo; Older Testimonials', 'theme1683')) ?>
+            <?php next_posts_link( __('&laquo; Older Отзывы', 'theme1683')) ?>
           </div><!--.older-->
           <div class="newer">
-            <?php previous_posts_link(__('Newer Testimonials &raquo;', 'theme1683')) ?>
+            <?php previous_posts_link(__('Newer Отзывы &raquo;', 'theme1683')) ?>
           </div><!--.newer-->
         </nav><!--.oldernewer-->
       <?php endif; ?>

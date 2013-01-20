@@ -200,8 +200,15 @@
 						<a href="<?php bloginfo('url'); ?>/" id="logo"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="<?php bloginfo('name'); ?>" title="<?php bloginfo('description'); ?>"></a>
 					<?php } ?>
 				  <?php }?>
-				</div>
 				
+				
+								
+				
+				
+				</div>
+				<div id="widget-header">
+					<?php if ( ! dynamic_sidebar( 'Header' ) ) : ?><!-- Wigitized Header --><?php endif ?>
+				</div><!--#widget-header-->
 <!-- ##### Убрал special list, мешает разметке при большом лого-банере
 
 				<div class="special-list">
@@ -214,10 +221,14 @@
 				</div>
 -->
 				<div class="clear"></div>
-				<div id="widget-header">
-					<?php if ( ! dynamic_sidebar( 'Header' ) ) : ?><!-- Wigitized Header --><?php endif ?>
-				</div><!--#widget-header-->
+				
+				
+
+				
+				
 				<div class="clear"></div>
+				
+				
 				<div class="row-top">
 					<nav class="primary">
 					  <?php wp_nav_menu( array(
@@ -232,7 +243,7 @@
 					<?php if ( of_get_option('g_search_box_id') == 'yes') { ?>  
 					  <div id="top-search">
 						<form method="get" action="<?php echo get_option('home'); ?>/">
-						  <input class="input-search" type="text" name="s" value="<?php _e('Search', 'theme1683'); ?>" onBlur="if(this.value=='') this.value='<?php _e('Search', 'theme1683'); ?>'" onFocus="if(this.value =='<?php _e('Search', 'theme1683'); ?>' ) this.value=''" />
+						  <input class="input-search" type="text" name="s" value="<?php _e('Поиск', 'theme1683'); ?>" onBlur="if(this.value=='') this.value='<?php _e('Поиск', 'theme1683'); ?>'" onFocus="if(this.value =='<?php _e('Поиск', 'theme1683'); ?>' ) this.value=''" />
 						  <input type="submit" value="<?php _e('GO', 'theme1683'); ?>" id="submit" />
 						</form>
 					  </div>  

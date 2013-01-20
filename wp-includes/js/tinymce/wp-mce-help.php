@@ -203,7 +203,7 @@ wp_admin_css( 'wp-admin', true );
 	<li><a id="tab1" href="javascript:flipTab(1)" title="<?php esc_attr_e('Basics of Rich Editing') ?>" accesskey="1" tabindex="1" class="current"><?php _e('Basics') ?></a></li>
 	<li><a id="tab2" href="javascript:flipTab(2)" title="<?php esc_attr_e('Advanced use of the Rich Editor') ?>" accesskey="2" tabindex="2"><?php _e('Advanced') ?></a></li>
 	<li><a id="tab3" href="javascript:flipTab(3)" title="<?php esc_attr_e('Hotkeys') ?>" accesskey="3" tabindex="3"><?php _e('Hotkeys') ?></a></li>
-	<li><a id="tab4" href="javascript:flipTab(4)" title="<?php esc_attr_e('About the software') ?>" accesskey="4" tabindex="4"><?php _e('About') ?></a></li>
+	<li><a id="tab4" href="javascript:flipTab(4)" title="<?php esc_attr_e('About the software') ?>" accesskey="4" tabindex="4"><?php _e('О нас') ?></a></li>
 </ul>
 
 <div id="flipper" class="wrap">

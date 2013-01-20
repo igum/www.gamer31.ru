@@ -71,8 +71,8 @@ class MY_CycleWidget extends WP_Widget {
                 <?php wp_reset_query(); ?>
 							</div>
               <div id="testi-controls">
-                <a href="#"><span id="prev-testi"><?php _e('Prev', 'theme1683'); ?></span></a> 
-                <a href="#"><span id="next-testi"><?php _e('Next', 'theme1683'); ?></span></a>
+                <a href="#"><span id="prev-testi"><?php _e('Пред.', 'theme1683'); ?></span></a> 
+                <a href="#"><span id="next-testi"><?php _e('След.', 'theme1683'); ?></span></a>
                 <ul id="nav-testi"></ul>
               </div>
 							<!-- end of testimonials -->
@@ -119,7 +119,7 @@ class MY_CycleWidget extends WP_Widget {
 											<?php if($limittext!="" || $limittext!=0) : ?>
 												<p><?php $excerpt = get_the_excerpt(); echo my_string_limit_words($excerpt,$limittext); ?></p>
 										</div>
-										<a href="<?php the_permalink() ?>" class="link-1"><?php _e('Read more', 'theme1683'); ?></a>
+										<a href="<?php the_permalink() ?>" class="link-1"><?php _e('Далее..', 'theme1683'); ?></a>
 								  <?php endif; ?>
 								</div>
 								<?php endwhile; ?>
@@ -189,7 +189,7 @@ class MY_CycleWidget extends WP_Widget {
       <p><label for="<?php echo $this->get_field_id('category'); ?>"><?php _e('Show profile link:', 'theme1683'); ?><br />
 
       <select id="<?php echo $this->get_field_id('category'); ?>" name="<?php echo $this->get_field_name('category'); ?>" style="width:150px;" > 
-      <option value="testi" <?php echo ($category === 'testi' ? ' selected="selected"' : ''); ?>>Testimonials</option>
+      <option value="testi" <?php echo ($category === 'testi' ? ' selected="selected"' : ''); ?>>Отзывы</option>
       <option value="portfolio" <?php echo ($category === 'portfolio' ? ' selected="selected"' : ''); ?> >Portfolio</option>
       <option value="" <?php echo ($category === '' ? ' selected="selected"' : ''); ?>>Blog</option>
       </select>

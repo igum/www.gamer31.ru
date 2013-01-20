@@ -1309,9 +1309,9 @@ function find_posts_div($found_action = '') {
 
 				<input type="hidden" name="affected" id="affected" value="" />
 				<?php wp_nonce_field( 'find-posts', '_ajax_nonce', false ); ?>
-				<label class="screen-reader-text" for="find-posts-input"><?php _e( 'Search' ); ?></label>
+				<label class="screen-reader-text" for="find-posts-input"><?php _e( 'Поиск' ); ?></label>
 				<input type="text" id="find-posts-input" name="ps" value="" />
-				<input type="button" id="find-posts-search" value="<?php esc_attr_e( 'Search' ); ?>" class="button" /><br />
+				<input type="button" id="find-posts-search" value="<?php esc_attr_e( 'Поиск' ); ?>" class="button" /><br />
 
 				<?php
 				$post_types = get_post_types( array('public' => true), 'objects' );

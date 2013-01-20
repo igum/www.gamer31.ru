@@ -9,7 +9,7 @@
 /** WordPress Administration Bootstrap */
 require_once( './admin.php' );
 
-$title = __( 'About' );
+$title = __( 'О нас' );
 
 list( $display_version ) = explode( '-', $wp_version );
 

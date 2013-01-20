@@ -65,7 +65,7 @@ function install_theme_search_form( $type_selector = true ) {
 	</select>
 	<?php endif; ?>
 	<input type="search" name="s" size="30" value="<?php echo esc_attr($term) ?>" />
-	<?php submit_button( __( 'Search' ), 'button', 'search', false ); ?>
+	<?php submit_button( __( 'Поиск' ), 'button', 'search', false ); ?>
 </form>
 <?php
 }

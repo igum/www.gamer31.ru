@@ -37,7 +37,7 @@ class WP_Theme_Install_List_Table extends WP_Themes_List_Table {
 
 		// These are the tabs which are shown on the page,
 		$tabs = array();
-		$tabs['dashboard'] = __( 'Search' );
+		$tabs['dashboard'] = __( 'Поиск' );
 		if ( 'search' == $tab )
 			$tabs['search']	= __( 'Search Results' );
 		$tabs['upload'] = __( 'Upload' );

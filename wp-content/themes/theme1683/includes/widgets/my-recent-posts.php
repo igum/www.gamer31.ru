@@ -54,7 +54,7 @@ class MY_PostWidget extends WP_Widget {
 																				<?php comments_popup_link('0', '1', '%', 'comments-link', 'x'); ?>
 									  											<div class="fleft"><?php the_ratings($start_tag = 'div', $custom_id = $post->ID, $display = true); ?></div>
 									  											<div class="fright">
-									  												<a href="<?php the_permalink() ?>" class="button"><?php _e('Read more', 'theme1683'); ?></a>
+									  												<a href="<?php the_permalink() ?>" class="button"><?php _e('Далее..', 'theme1683'); ?></a>
 									  											</div>
 									  										</div>
 									  </div>

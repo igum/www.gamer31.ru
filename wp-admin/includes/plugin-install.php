@@ -83,7 +83,7 @@ function install_dashboard() {
 	?>
 	<p><?php printf( __( 'Plugins extend and expand the functionality of WordPress. You may automatically install plugins from the <a href="http://wordpress.org/extend/plugins/">WordPress Plugin Directory</a> or upload a plugin in .zip format via <a href="%s">this page</a>.' ), self_admin_url( 'plugin-install.php?tab=upload' ) ); ?></p>
 
-	<h4><?php _e('Search') ?></h4>
+	<h4><?php _e('Поиск') ?></h4>
 	<?php install_search_form( false ); ?>
 
 	<h4><?php _e('Popular tags') ?></h4>

@@ -37,12 +37,12 @@ h1, h2, h3, h4, h5, h6 {
 	
 h1 {
 	font-size:20px;
-	line-height:46px;
-	height:46px;
+	line-height:30px;
+	height:30px;
 	font-weight:normal;
-	padding:3px 0 3px 20px;
+	padding:0px 0 0px 15px;
 	border-radius:5px 5px 0 0;
-	margin-bottom:25px;
+	margin-bottom:20px;
 	position:relative;
 }
 /* Заголовок  длина (46)*/
@@ -59,9 +59,9 @@ h2 {
 	position:relative;
 }
 .ie h2 {
-	height:45px;
-	line-height:45px;
-	margin-bottom:26px;
+	height:29px;
+	line-height:29px;
+	margin-bottom:21px;
 }
 	
 h3 {
@@ -265,7 +265,7 @@ img {
 
 /* Header widget */
 #widget-header {
-	position: relative;
+	position: relative right;
     float: right;
     z-index: 1;
 }
@@ -281,7 +281,7 @@ img {
 		float:left;
 		border:none;
 		padding:0;
-		margin:0 0 0 5px;
+		margin:0 0 0 20px;
 		list-style-type:none;
 		height:30px;
 		}
@@ -1171,10 +1171,11 @@ nav.oldernewer {
 
 /* Gallery */
 .header-title {
-	margin-bottom:25px;
+	/* Отступ от нижней части заголовка галереи до миниатюр  */
+	margin-bottom:0px;
 	}
 	.header-title h1 {
-		margin-bottom:0;
+		margin-bottom:20;
 		}
 	.header-title .page-desc {
 		font-size:.91em;
@@ -1654,7 +1655,7 @@ ul.recentcomments {
 				}
 
 
-/* Testimonials */
+/* Отзывы */
 .testimonials {
   padding: 0;
   margin: 0;
@@ -1877,10 +1878,10 @@ ul.recentcomments {
 
 
 
-/* Testimonials
+/* Отзывы
 ---------------------------------------- */
 
-/* Testimonials list */
+/* Отзывы list */
 article.testimonial {
 	border:none;
 	padding:30px 30px 20px 235px;
@@ -1914,7 +1915,7 @@ article.testimonial {
 			}
 
 
-/* Single Testimonial */
+/* Single Отзыв */
 .testi-single {
 	font-family:Georgia, "Times New Roman", Times, serif;
 	border:none;

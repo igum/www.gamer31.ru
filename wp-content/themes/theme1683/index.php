@@ -38,7 +38,7 @@
             <div class="excerpt"><?php $excerpt = get_the_excerpt(); echo my_string_limit_words($excerpt,145);?></div>
           <?php } ?>
           <p>
-          	<a href="<?php the_permalink() ?>" class="button"><?php _e('Read more', 'theme1683'); ?></a>
+          	<a href="<?php the_permalink() ?>" class="button"><?php _e('Далее..', 'theme1683'); ?></a>
           </p>
 		  <?php if(function_exists('the_ratings')) { the_ratings(); } ?>
         </div>

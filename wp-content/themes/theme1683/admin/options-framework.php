@@ -57,7 +57,7 @@ function optionsframework_load_sanitization() {
  * we supplied in options.php.  This is a neat way to do it since
  * we won't have to save settings for headers, descriptions, or arguments.
  *
- * Read more about the Settings API in the WordPress codex:
+ * Далее.. about the Settings API in the WordPress codex:
  * http://codex.wordpress.org/Settings_API
  *
  */

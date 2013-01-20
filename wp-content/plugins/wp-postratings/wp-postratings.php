@@ -49,7 +49,7 @@ $wpdb->ratings = $wpdb->prefix.'ratings';
 add_action('admin_menu', 'ratings_menu');
 function ratings_menu() {
 	if (function_exists('add_menu_page')) {
-		add_menu_page(__('Ratings', 'wp-postratings'), __('Ratings', 'wp-postratings'), 'manage_ratings', 'wp-postratings/postratings-manager.php', '', plugins_url('wp-postratings/images/stars(png)/rating_on.png'));
+		add_menu_page(__('Рейтинги', 'wp-postratings'), __('Рейтинги', 'wp-postratings'), 'manage_ratings', 'wp-postratings/postratings-manager.php', '', plugins_url('wp-postratings/images/stars(png)/rating_on.png'));
 	}
 	if (function_exists('add_submenu_page')) {
 		add_submenu_page('wp-postratings/postratings-manager.php', __('Manage Ratings', 'wp-postratings'), __('Manage Ratings', 'wp-postratings'), 'manage_ratings', 'wp-postratings/postratings-manager.php');
@@ -1198,7 +1198,7 @@ function expand_ratings_template($template, $post_id, $post_ratings_data = null,
 	// Constructor
 	function WP_Widget_PostRatings() {
 		$widget_ops = array('description' => __('WP-PostRatings ratings statistics', 'wp-postratings'));
-		$this->WP_Widget('ratings-widget', __('Ratings', 'wp-postratings'), $widget_ops);
+		$this->WP_Widget('ratings-widget', __('Рейтинги', 'wp-postratings'), $widget_ops);
 	}
 
 	// Display Widget
@@ -1285,7 +1285,7 @@ function expand_ratings_template($template, $post_id, $post_ratings_data = null,
 	// DIsplay Widget Control Form
 	function form($instance) {
 		global $wpdb;
-		$instance = wp_parse_args((array) $instance, array('title' => __('Ratings', 'wp-postratings'), 'type' => 'highest_rated', 'mode' => 'both', 'limit' => 10, 'min_votes' => 0, 'chars' => 200, 'cat_ids' => '0', 'time_range' => '1 day'));
+		$instance = wp_parse_args((array) $instance, array('title' => __('Рейтинги', 'wp-postratings'), 'type' => 'highest_rated', 'mode' => 'both', 'limit' => 10, 'min_votes' => 0, 'chars' => 200, 'cat_ids' => '0', 'time_range' => '1 day'));
 		$title = esc_attr($instance['title']);
 		$type = esc_attr($instance['type']);
 		$mode = esc_attr($instance['mode']);

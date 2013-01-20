@@ -1,7 +1,7 @@
 <aside id="sidebar" class="grid_3 list-2">
 	<?php if ( ! dynamic_sidebar( 'Sidebar' )) : ?>
   <div id="sidebar-search" class="widget">
-  	<?php echo '<h2>' . __('Search', 'theme1683') . '</h2>'; ?>
+  	<?php echo '<h2>' . __('Поиск', 'theme1683') . '</h2>'; ?>
     <?php get_search_form(); ?> <!-- outputs the default Wordpress search form-->
   </div>
   

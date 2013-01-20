@@ -37,7 +37,7 @@ endif;
 function my_post_type_slider() {
 	register_post_type( 'slider',
                 array( 
-				'label' => __('Slides'), 
+				'label' => __('Слайды'), 
 				'singular_label' => __('Slide', 'theme1683'),
 				'_builtin' => false,
 				'exclude_from_search' => true, // Exclude from Search Results
@@ -68,7 +68,7 @@ add_action('init', 'my_post_type_slider');
 function my_post_type_portfolio() {
 	register_post_type( 'portfolio',
                 array( 
-				'label' => __('Portfolio'), 
+				'label' => __('Портфолио'), 
 				'singular_label' => __('Porfolio Item', 'theme1683'),
 				'_builtin' => false,
 				'public' => true, 
@@ -90,18 +90,18 @@ function my_post_type_portfolio() {
 						'comments')
 					) 
 				);
-	register_taxonomy('portfolio_category', 'portfolio', array('hierarchical' => true, 'label' => 'Portfolio Categories', 'singular_name' => 'Category', "rewrite" => true, "query_var" => true));
+	register_taxonomy('portfolio_category', 'portfolio', array('hierarchical' => true, 'label' => 'Категории Портфолио', 'singular_name' => 'Category', "rewrite" => true, "query_var" => true));
 }
 
 add_action('init', 'my_post_type_portfolio');
 
 
 
-/* Testimonial */
+/* Отзыв */
 function my_post_type_testi() {
 	register_post_type( 'testi',
                 array( 
-				'label' => __('Testimonial'), 
+				'label' => __('Отзыв'), 
 				'public' => true, 
 				'show_ui' => true,
 				'show_in_nav_menus' => false,
@@ -126,7 +126,7 @@ add_action('init', 'my_post_type_testi');
 function my_post_type_services() {
 	register_post_type( 'services',
                 array( 
-				'label' => __('Services'), 
+				'label' => __('События'), 
 				'public' => true, 
 				'show_ui' => true,
 				'show_in_nav_menus' => false,
@@ -170,11 +170,11 @@ function phi_post_type_faq() {
 add_action('init', 'phi_post_type_faq');
 
 
-/* Our Team */
+/* Наша команда */
 function my_post_type_team() {
 	register_post_type( 'team',
                 array( 
-				'label' => __('Our Team'), 
+				'label' => __('Наша команда'), 
 				'singular_label' => __('Person', 'theme1683'),
 				'_builtin' => false,
 				'exclude_from_search' => true, // Exclude from Search Results

@@ -334,7 +334,7 @@ function wp_mce_translation() {
 
 	$advanced_dlg = array(
 		'about_title' => __('About TinyMCE'),
-		'about_general' => __('About'),
+		'about_general' => __('О нас'),
 		'about_help' => __('Help'),
 		'about_license' => __('License'),
 		'about_plugins' => __('Plugins'),

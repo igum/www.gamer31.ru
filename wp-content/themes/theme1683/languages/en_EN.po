@@ -74,7 +74,7 @@ msgstr ""
 #: ../category.php:29
 #: ../index.php:41
 #: ../page-Portfolio1Col.php:51
-msgid "Read more"
+msgid "Далее.."
 msgstr ""
 
 #: ../archive.php:45
@@ -324,11 +324,11 @@ msgid "Permanent Link to"
 msgstr ""
 
 #: ../page-testi.php:55
-msgid "&laquo; Older Testimonials"
+msgid "&laquo; Older Отзывы"
 msgstr ""
 
 #: ../page-testi.php:58
-msgid "Newer Testimonials &raquo;"
+msgid "Newer Отзывы &raquo;"
 msgstr ""
 
 #: ../search.php:34
@@ -399,7 +399,7 @@ msgid "View File"
 msgstr ""
 
 #: ../admin/options-medialibrary-uploader.php:288
-msgid "Gallery"
+msgid "Галерея"
 msgstr ""
 
 #: ../admin/options-medialibrary-uploader.php:288
@@ -455,7 +455,7 @@ msgid "Porfolio Item"
 msgstr ""
 
 #: ../includes/theme-init.php:104
-msgid "Testimonial"
+msgid "Отзыв"
 msgstr ""
 
 #: ../includes/theme-init.php:129
@@ -471,7 +471,7 @@ msgid "FAQ"
 msgstr ""
 
 #: ../includes/theme-init.php:177
-msgid "Our Team"
+msgid "Наша команда"
 msgstr ""
 
 #: ../includes/theme-init.php:178
@@ -682,7 +682,7 @@ msgid "Link text"
 msgstr ""
 
 #: ../includes/widgets/my-posts-type-widget.php:294
-msgid "(default: \"Read more\")"
+msgid "(default: \"Далее..\")"
 msgstr ""
 
 #: ../includes/widgets/my-posts-type-widget.php:299
