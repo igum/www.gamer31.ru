@@ -45,16 +45,17 @@ h1 {
 	margin-bottom:25px;
 	position:relative;
 }
+/* Заголовок  длина (46)*/
 h2 {
 	font-size:20px;
-	line-height:46px;
-	height:46px;
+	line-height:30px;
+	height:30px;
 	font-weight:normal;
-	padding:0 0 0 20px;
+	padding:0px 0px 0px 15px;
 	border-radius:5px 5px 0 0;
 	-moz-border-radius:5px 5px 0 0;
 	-webkit-border-radius:5px 5px 0 0;
-	margin-bottom:25px;
+	margin-bottom:20px;
 	position:relative;
 }
 .ie h2 {
@@ -208,14 +209,22 @@ img {
     width: 100%;
 	min-height:193px;
     z-index: 99;
-	margin-bottom:19px;
+	/*  Нижний отступ от заголовка (19) к слайдеру       
+		действует везде кроме начальной страницы со слайдером
+		перезначается стилем .home
+	*/
+	margin-bottom:2px;
 	}
-.home #header {margin-bottom:0px; padding-bottom:18px;}
+
+/*отстпуп слайдера от меню (18)*/
+.home #header {margin-bottom:0px; padding-bottom:1px;}
 /* Logo */
 .logo {
 	float: left;
-    padding: 13px 0 0 0px;
-	margin-left:-19px;
+    /* Отстпуп лого от топа (13) */
+    padding: 0px 0 0 0px;
+	/* Отстуа слева, выравниваем лого (-19) */
+	margin-left:-100px;
 	}
 	.logo h1,
 	.logo h2 {
@@ -322,13 +331,18 @@ img {
 	height:480px;
 	overflow:hidden;
 	position:relative;
-	margin-bottom:19px;
-	padding:10px 10px 10px 10px;
-	width:960px;
+	/* Нижний отстпут слайдера(19) */
+	margin-bottom:2px;
+	/* Отстпупы-смещения слайдера относительно рамки(враппера) в которую вписан */
+	/* (10-10-10-10) */
+	padding:0px 0px 0px 0px;
+	/* длина врппера (960) */
+	width:980px;
 	}
 #slider {
 	position:relative;
-	width:960px;
+	/* длина слайдера (960) */
+	width:980px;
 	height:480px;
 }
 #slider img {
@@ -521,7 +535,8 @@ a.nivo-prevNav:hover {
 .row-top {
 	width:100%;
 	border-radius:10px;
-	margin-top:23px;
+	/* Отстпуп меню от лого сверху (23) */
+	margin-top:0px;
 	position:relative;	
 }
 
@@ -729,23 +744,33 @@ li.sfHover > a > .sf-sub-indicator {
 /* Content
 ---------------------------------------- */
 .before-content {
-	padding:20px 0;	
-	border-radius:10px 10px 0 0;
+	/* отстпут до контента (20), только на начальной */
+	padding:20px 0px;	
+	border-radius:10px 10px 10px 10px;
 	position:relative;
 }	
+/* пока не нашел на что влиЯет*/
 .primary_content_wrap {
 	position:relative;
 	display:block;
 	overflow:hidden;
-	border-radius:0 0 10px 10px;
+	border-radius:10px 10px 10px 10px;
 }
 
-	body.home .primary_content_wrap {border-radius:10px 10px 0 0; padding-top:0;}
+	body.home .primary_content_wrap {
+	border-radius:10px 10px 10px 10px; 
+	padding-top:2px;
+	/* отстпуп от подвала*/
+	padding-bottom:2px;
+	padding-top:2px;
+}
 	
 .second_content {
+	border-radius:10px 10px 10px 10px;
 	margin:-10px -10px 0;
 	padding:25px 10px 10px;
 	position:relative;
+	/* нижняя разделяющая линия - серая вторичного контента*/
 	border-top:1px solid #2d2d2d;
 }
 	.second_content  h4 {
