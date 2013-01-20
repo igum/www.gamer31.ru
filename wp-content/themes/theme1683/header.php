@@ -201,6 +201,9 @@
 					<?php } ?>
 				  <?php }?>
 				</div>
+				
+<!-- ##### Убрал special list, мешает разметке при большом лого-банере
+
 				<div class="special-list">
 					<?php if(is_user_logged_in()) { ?>
 						<?php wp_loginout(); ?>
@@ -209,6 +212,7 @@
 					<?php } ?>
 					<a href="<?php if ( of_get_option('feed_url') != '' ) { echo of_get_option('feed_url'); } else bloginfo('rss2_url'); ?>" rel="nofollow" title="<?php _e('Entries RSS', 'theme1683'); ?>"><?php _e('Entries RSS', 'theme1683'); ?></a><a href="<?php bloginfo('comments_rss2_url'); ?>" rel="nofollow"><?php _e('Comments RSS', 'theme1683'); ?></a><a href="http://wordpress.org">WordPress.org</a>
 				</div>
+-->
 				<div class="clear"></div>
 				<div id="widget-header">
 					<?php if ( ! dynamic_sidebar( 'Header' ) ) : ?><!-- Wigitized Header --><?php endif ?>
